@@ -17,6 +17,7 @@ public class TriggerProjectile : MonoBehaviour
             Flyingabi2.SetActive(true);
             Flyingabi3.SetActive(true);
             Flyingabi4.SetActive(true);
+            Destroy(gameObject);
         }
     }
 }
